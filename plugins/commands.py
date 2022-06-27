@@ -28,16 +28,16 @@ async def start_message(bot, message):
     await m.delete()             
     await message.reply_photo(
         photo=random.choice(PICS),
-        caption=f"Hello {message.from_user.mention}👋🏻\nI'am A Multi use Bot with many usefull features.\neg:- Telegarph, Channel ID, User ID, Fun, Group Id etc...\nYou can see My commands by below button... \n\n◉ send channel last message with forwerd tag to get the channel id 💯",               
+        caption=f"Hello {message.from_user.mention}👋🏻\n𝙸 𝚊𝚖 𝙰 𝚃𝚎𝚕𝚎𝚐𝚛𝚊𝚙𝚑 𝙱𝚘𝚝 𝙲𝚛𝚎𝚊𝚝𝚎𝚍 𝙱𝚢 𝙷𝚊𝚛𝚜𝚑𝚒𝚝𝚑 𝙸 𝚌𝚊𝚗 𝚃𝚎𝚕𝚎𝚐𝚛𝚊𝚙𝚑 𝙼𝚎𝚍𝚒𝚊 𝙻𝚒𝚔𝚎 𝙿𝚑𝚘𝚝𝚘 , 𝙼𝚞𝚜𝚒𝚌 & 𝚅𝚒𝚍𝚎𝚘𝚜 𝙵𝚘𝚛 𝙼𝚘𝚛𝚎 𝙸𝚗𝚏𝚘𝚛𝚖𝚊𝚝𝚒𝚘𝚗 𝙲𝚕𝚒𝚌𝚔 /help",               
         reply_markup=InlineKeyboardMarkup( [[
-            InlineKeyboardButton("❣️ 𝐒𝐔𝐏𝐏𝐎𝐑𝐓", url="https://t.me/BETA_BOTSUPPORT"),
-            InlineKeyboardButton("📢 𝐔𝐏𝐃𝐀𝐓𝐄𝐒", url="https://t.me/BETA_UPDATES")
+            InlineKeyboardButton("💞 Support", url="https://t.me/MHGcHaT"),
+            InlineKeyboardButton("💖 Updates", url="https://t.me/MutyalaHarshith")
             ],[            
-            InlineKeyboardButton("ℹ️ 𝐇𝐄𝐋𝐏", callback_data="help"),
+            InlineKeyboardButton("😜 Help", callback_data="help"),
             InlineKeyboardButton("😉 𝐅𝐔𝐍", callback_data="fun")
             ],[
-            InlineKeyboardButton("👨‍💻 𝐃𝐄𝐕𝐒 👨‍💻 ", callback_data="devs"),
-            InlineKeyboardButton("🤖 𝐀𝐁𝐎𝐔𝐓", callback_data="about")
+            InlineKeyboardButton("😎 Develovepers", callback_data="devs"),
+            InlineKeyboardButton("💔 About", callback_data="about")
             ]]
             )
         )
