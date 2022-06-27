@@ -4,3 +4,13 @@ asyncio
 pymongo
 dnspython
 telegraph
+youtube_dl
+youtube_search_python
+youtube_search
+requests
+motor
+aiofiles
+dnspython
+pymongo
+wget
+yt_dlp
