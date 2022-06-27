@@ -13,7 +13,7 @@ async def is_not_subscribed(client, message):
            ])
        )
 
-@Client.on_message(filters.private & filters.command(["tgmedia", "tgraph", "telegraph"]))
+@Client.on_message(filters.private & filters.command(["mh", "harshith", "telegraph"]))
 async def telegraph(client, message):
     replied = message.reply_to_message
     if not replied:
@@ -52,8 +52,8 @@ async def telegraph(client, message):
             reply_markup=InlineKeyboardMarkup(
             [
                 [
-                    InlineKeyboardButton(text="open link", url=f"https://telegra.ph{response[0]}"),
-                    InlineKeyboardButton(text="share link", url=f"https://telegram.me/share/url?url=https://telegra.ph{response[0]}")
+                    InlineKeyboardButton(text="Open link", url=f"https://telegra.ph{response[0]}"),
+                    InlineKeyboardButton(text="Share link", url=f"https://telegram.me/share/url?url=https://telegra.ph{response[0]}")
                 ],
                 [InlineKeyboardButton(text="✗ Close ✗", callback_data="close")]
             ]
